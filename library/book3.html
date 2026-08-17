@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melletted</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+
+            background:url("../assets/library.png");
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            min-height:100vh;
+
+            overflow:hidden;
+
+        }
+
+        .overlay{
+
+            position:absolute;
+            inset:0;
+
+            background:rgba(0,0,0,.45);
+
+        }
+
+        .container{
+
+            position:relative;
+            z-index:2;
+
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+
+        }
+
+        img{
+
+            width:90%;
+            max-width:1200px;
+
+            border-radius:18px;
+
+            box-shadow:0 0 35px rgba(0,0,0,.6);
+
+        }
+
+        .back{
+
+            position:absolute;
+
+            top:25px;
+            left:25px;
+
+            z-index:3;
+
+            text-decoration:none;
+
+            background:#f7dbe8;
+
+            color:#4b2b3b;
+
+            padding:15px 35px;
+
+            border-radius:40px;
+
+            font-size:22px;
+
+            transition:.3s;
+
+        }
+
+        .back:hover{
+
+            transform:scale(1.08);
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="overlay"></div>
+
+<a class="back" href="library.html">
+⬅ Vissza
+</a>
+
+<div class="container">
+
+    <img src="../assets/kep3.jpeg" alt="Ideje már">
+
+</div>
+
+</body>
+
+</html>

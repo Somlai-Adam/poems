@@ -1,6 +1,6 @@
 const booksContainer = document.getElementById("books");
 
-const NUMBER_OF_BOOKS = 2;
+const NUMBER_OF_BOOKS = 3;
 
 const isMobile = window.innerWidth <= 600;
 
@@ -9,7 +9,8 @@ const bookHeight = isMobile ? 100 : 150;
 
 const bookImages = [
     "book_idejemar.png",
-    "book_kiralylany.png"
+    "book_kiralylany.png",
+    "book_melletted.png"
 ];
 
 const books = [];
