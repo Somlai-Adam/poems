@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Georgia, serif;
+}
+
+body{
+
+    width:100vw;
+    height:100vh;
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+     background-attachment:fixed;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.overlay{
+
+    width:100%;
+    height:100%;
+
+    background:rgba(0,0,0,.35);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.card{
+
+    width:80%;
+    max-width:700px;
+
+    padding:45px;
+
+    border-radius:30px;
+
+    background:rgba(255,255,255,.82);
+
+    text-align:center;
+
+}
+
+h1{
+
+    font-size:45px;
+
+    margin-bottom:35px;
+
+}
+
+#message{
+
+    font-size:30px;
+
+    line-height:1.6;
+
+}
+
+.back{
+
+    display:inline-block;
+
+    margin-top:40px;
+
+    text-decoration:none;
+
+    padding:15px 35px;
+
+    border-radius:35px;
+
+    background:#f6dce8;
+
+    color:#41253b;
+
+}
