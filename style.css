@@ -518,4 +518,162 @@ background-attachment:scroll;
 
 }
 
+.hugs-container {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 12px;
+
+    margin-top: 15px;
+
+}
+
+
+.hug-button {
+
+    border: none;
+
+    padding: 12px 20px;
+
+    border-radius: 30px;
+
+    background: #f6c6d9;
+
+    color: #54263d;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+
+    transition: .25s;
+
+}
+
+
+.hug-button:hover {
+
+    transform: scale(1.06);
+
+}
+
+
+.hug-button:disabled {
+
+    opacity: .65;
+
+    cursor: default;
+
+    transform: none;
+
+}
+
+
+.hug-counter {
+
+    padding: 10px 16px;
+
+    border-radius: 25px;
+
+    background: rgba(255,255,255,.8);
+
+    color: #54263d;
+
+    font-size: 17px;
+
+    font-weight: 600;
+
+}
+
+
+.redeem-button {
+
+    position: fixed;
+
+    bottom: 25px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    border: none;
+
+    padding: 14px 28px;
+
+    border-radius: 30px;
+
+    background: #54263d;
+
+    color: white;
+
+    font-size: 17px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    box-shadow: 0 6px 20px rgba(0,0,0,.2);
+
+    transition: .25s;
+
+    z-index: 1000;
+
+}
+
+
+.redeem-button:hover {
+
+    transform: translateX(-50%) scale(1.05);
+
+}
+
+
+@media (max-width: 600px) {
+
+    .hugs-container {
+
+        gap: 8px;
+
+    }
+
+
+    .hug-button {
+
+        padding: 10px 15px;
+
+        font-size: 16px;
+
+    }
+
+
+    .hug-counter {
+
+        padding: 9px 13px;
+
+        font-size: 15px;
+
+    }
+
+
+    .redeem-button {
+
+        bottom: 16px;
+        left: 160px;
+        padding: 17px 8px;
+
+        
+
+        font-size: 10px;
+
+    }
+
+}
+
 
